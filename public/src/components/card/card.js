@@ -26,7 +26,7 @@ render() {
         <div class="product-card">
         <div id="info">
             
-            <h1>${this.title}</h1>
+            <h1 id=titulo >${this.title}</h1>
             <p>${this.description}</p>
             
             <button id="boton">${this.txtbutton}</button>

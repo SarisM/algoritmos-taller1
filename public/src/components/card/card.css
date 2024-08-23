@@ -1,11 +1,14 @@
+body {
+    background-color: #dedede;
+}
 .product-card {
 	display: flex;
 	flex-direction: row;
-    width: 30rem;
-    height: 15rem;
+    width: 25rem;
+    height: 12rem;
 	background-color: rgb(255, 255, 255);
-    box-shadow: 2px 2px 5px;
-    border-radius: 1.5rem;
+    /* box-shadow: 1px 1px 3px; */
+    border-radius: 0.8rem;
 }
 
 #info {
@@ -15,18 +18,29 @@
     flex-direction: column;
 }
 
+#titulo {
+    font-family:'Franklin Gothic Medium';
+    font-size: 22px;
+
+
+}
+
+#fotito {
+    height: 11,7rem;
+}
+
 #boton {
     font-family:'Franklin Gothic Medium';
     border: none;
     background-color: white;
-    font-size: 15px;
+    font-size: 18px;
 }
 
 .cajitas {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: space-between
+    justify-content: space-around
     ;
 }
 
