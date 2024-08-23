@@ -1,0 +1,32 @@
+.product-card {
+	display: flex;
+	flex-direction: row;
+    width: 30rem;
+    height: 15rem;
+	background-color: rgb(255, 255, 255);
+    box-shadow: 2px 2px 5px;
+    border-radius: 1.5rem;
+}
+
+#info {
+    font-family:'Franklin Gothic Regular';
+    padding: 1rem;
+    font-size: 15px;
+    flex-direction: column;
+}
+
+#boton {
+    font-family:'Franklin Gothic Medium';
+    border: none;
+    background-color: white;
+    font-size: 15px;
+}
+
+.cajitas {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between
+    ;
+}
+
