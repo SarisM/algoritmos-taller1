@@ -1,0 +1,56 @@
+
+
+.call-to-action {
+    background-color: aqua;
+    height: 17rem;
+    width: 100%;
+    border-top-color: white;
+    display: flex;
+
+}
+
+
+#info {
+    height: 100%;
+    width: 35%;
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content:  center;
+    padding: 0 1rem;
+    
+}
+
+
+#titulo {
+    font-size: 22px;
+}
+
+#text {
+    font-size: 18px;
+    margin-left: 170px;
+}
+
+#boton {
+    font-size: 15px;
+    height: 3rem;
+    width: 15rem;
+    color: white;
+    background-color: black;
+    border-color: white;
+    border-radius: 2rem;
+    margin-right: 100px;
+}
+
+
+#img {
+    height: 17rem;
+    width: 65%;
+}
+
+#foto {
+    height: 100%;
+    width: 100%;
+}

@@ -1,0 +1,17 @@
+.categorie-logo {
+    height: 70px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(28, 28, 28);
+}
+.img {
+    padding: 10px;
+    height: 60px;
+}
+#logo1 {
+    background-image: url(../../fotos/logo1.png);
+    background-size: cover; 
+    
+}

@@ -1,0 +1,22 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    background-color: black;
+}
+
+#cartas {
+    display: flex; /* Organiza los elementos de forma horizontal */
+    justify-content: space-around; /* Distribuye los elementos con espacio alrededor */
+    align-items: start;
+    gap: 1rem;
+    padding: 1rem 5rem;
+    margin-bottom: 1rem;
+
+}
+#cartas-completas {
+    background-color: rgb(23, 23, 23);
+    display: flex;
+    flex-direction: column;
+}

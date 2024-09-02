@@ -1,6 +1,6 @@
 class Card extends HTMLElement {
 	static get observedAttributes() {
-		return ['img', 'alt', 'title', 'description', 'txtbutton'];
+		return ['img', 'description', 'txtbutton'];
 	}
 
 	constructor() {
@@ -24,14 +24,13 @@ render() {
     this.shadowRoot.innerHTML = `
         <link rel="stylesheet" href="./src/components/card/card.css">
         <div class="product-card">
-        <div id="info">
-            
-            <h1 id=titulo >${this.title}</h1>
-            <p>${this.description}</p>
-            
-            <button id="boton">${this.txtbutton}</button>
+       	 <div id="info">
+		    <img id="card-logo" src=${this.img} alt=${this.alt}>
+            <p id = "text-card">${this.description}</p>
+            <button id="boton1">RESERVA B6</button>
+			<button id="boton2">VISITAR SITIO</button>
             </div>
-            <img id="fotito" src=${this.img} alt=${this.alt}>
+            
         </div>
 `;
 }

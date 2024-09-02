@@ -1,0 +1,81 @@
+
+
+.call-to-action2 {
+    background-image: url(../../fotos/fondolargo2.png);
+    background-size: cover;
+    height: 17rem;
+    width: 100%;
+    border-top-color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+
+
+#info {
+    height: 100%;
+    width: 20%;
+    background-color: transparent;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content:  center;
+    align-items: center;
+    padding: 0 6rem;
+    
+}
+
+
+#titulo {
+    font-size: 50px;
+    color: rgb(93, 93, 185);
+}
+
+#text {
+    font-size: 22px;
+}
+
+#boton {
+    font-size: 15px;
+    height: 3rem;
+    width: 15rem;
+    color: white;
+    background-color: transparent;
+    border-color: white;
+    border-radius: 2rem;
+}
+
+
+#info2 {
+    height: 100%;
+    background-color: transparent;
+    width: 34rem;
+    color: white;
+    display: flex;
+  flex-direction: column; /* Coloca los elementos uno debajo del otro */
+  align-items: flex-start;
+   
+    justify-content: center;
+    padding: 0 1rem;
+    
+}
+
+#info-box{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 30rem;
+
+
+}
+#titulo2 {
+    font-size: 20px;
+}
+
+#text2 {
+    font-size: 18px;
+    width: 13rem;
+}
+
+

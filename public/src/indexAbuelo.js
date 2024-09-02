@@ -14,31 +14,140 @@ class AppContainer extends HTMLElement {
 
 	render() {
 		this.shadowRoot.innerHTML = `
-    <link rel="stylesheet" href="./src/components/card/card.css">
-    <div class= "cajitas">
+		 <link rel="stylesheet" href="./src/index.css">
+
+   <nav-bar
+		
+			img = "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ-9jprALW9id1NWGp8fSOXkHrLb756jsHBWg&s"
+
+	></nav-bar>
+
+
+
     <product-card
-      
-      alt="Imagen de una chica viendo promociones en el compu"
-      title="Mando de Nintendo 64"
-      
-      description="Disfruta de los juegos de Nintendo 64 de la forma en que se deben jugar: ¡con un mando inalámbrico de tamaño completo de Nintendo 64!"
-    img="https://assets.nintendo.eu/image/private/f_auto,c_limit,w_1920,q_auto:low/lvk7zz3tlmx5gqhpgf5r"
-      txtbutton="Comprar"
-      ></product-card>
-    <product-card
-      img="https://assets.nintendo.eu/image/private/f_auto,c_limit,w_1920,q_auto:low/afdfdrgq8i4dpnere9h5"
-      alt="Otra cosa"
-      title="Megapromoción 12+2"
-      description="2 meses adicionales al comprar cualquier suscripción de 12 meses."
-      txtbutton="Ver más detalles"
+      img="https://upload.wikimedia.org/wikipedia/commons/b/b1/Call_of_Duty_Mobile_Logo.png"
+      description="Obligados a revelarse. Perseguidos desde dentro"
+
     ></product-card>
-     <product-card
-      img="https://assets.nintendo.eu/image/private/f_auto,c_limit,w_1920,q_auto:low/kj6n1mmv5i3yqjvk6f56"
-      alt="Otra cosa"
-      title="The Legend of Zelda amiibo"
-      description="Potencia tu juego con los amiibo de la colección The Legend of Zelda."
-      txtbutton="¡Completa tu colección!"
-    ></product-card>
+
+
+	 <categorie-logo
+		
+	></categorie-logo>
+
+
+
+
+	<div id="cartas-completas">
+	<div id="cartas">
+
+
+	
+	<big-card
+		img =  "src/fotos/foto1.png"
+		date = "AUG 08,2024"
+		title = "Modo Zombis de Black Ops 6:"
+		>
+		
+		
+	</big-card>
+
+	<big-card
+		img =  "src/fotos/foto2.png"
+		date = "AUG 08,2024"
+		title = "Modo Zombis de Black Ops 6: qué necesitas saber"
+		>
+		
+		
+	</big-card>
+
+	<big-card
+	
+		img =  "src/fotos/foto3.png"
+		date = "AUG 08,2024"
+		title = "Modo Zombis de Black Ops 6: qué necesitas saber"
+		>
+		
+		
+	</big-card>
+
+        </div>
+
+	
+
+	<div id="cartas">
+
+
+	
+	<big-card
+		img =  "src/fotos/foto4.png"
+		date = "AUG 08,2024"
+		title = "Modo Zombis de Black Ops 6: qué necesitas saber"
+		>
+		
+		
+	</big-card>
+
+	<big-card
+		img =  "src/fotos/foto5.png"
+		date = "AUG 08,2024"
+		title = "Modo Zombis de Black Ops 6: qué necesitas saber"
+		>
+		
+		
+	</big-card>
+
+	<big-card
+		img =  "src/fotos/foto6.png"
+		date = "AUG 08,2024"
+		title = "Modo Zombis de Black Ops 6: qué necesitas saber"
+		>
+		
+	</big-card>
+
+        </div>
+
+	
+		</div>
+
+	<call-to-action
+		title = "¡ESTAMOS AQUÍ PARA AYUDAR!"
+		description ="Obtén respuestas a las preguntas más frecuentes, comprueba el estado del servidor y contacta con alguien experto en asistencia técnica."
+		txtbutton ="VISITAR SERVICIO TECNICO"
+		img =  "src/fotos/fondolargo.png"
+
+
+
+	></call-to-action>
+
+	<call-to-action2
+		title = "Diviértete"
+		description ="Más información sobre las oportunidades de empleo"
+		txtbutton ="UNETE A NOSOTROS"
+		img =  "src/fotos/fondolargo.png"
+		title2 ="NUESTROS EQUIPOS"
+		description2="Diseño de juego
+Gráficos y animación
+Gestion de marca
+Producción
+Control de calidad"
+		description3="Asistencia al cliente
+Operaciones del estudio
+Programación
+Finanzas y contabilidad
+Recursos humanos"
+
+
+
+	></call-to-action2>
+
+
+	
+
+
+
+
+     
     `;
 	}
 }
