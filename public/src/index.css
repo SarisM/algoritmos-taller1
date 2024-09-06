@@ -69,7 +69,8 @@
 }
 
 .post-completos {
-    display: flex;
-    flex-direction: row;
-    background-color: black;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    background-color: rgb(196, 28, 28);
+    gap: 10px;
 }

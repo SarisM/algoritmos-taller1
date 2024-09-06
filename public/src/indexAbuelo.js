@@ -136,19 +136,19 @@ class AppContainer extends HTMLElement {
 
 
 
-	<div class= "post-completos">
+	<div class="post-completos">
 		<post-card
 		   img =  "src/fotos/post1.png"
            logo =  "src/fotos/instagram-logo.png"
             
         ></div>
 		<post-card
-		   img =  "src/fotos/post2.png"
+		   img =  "src/fotos/post3.png"
            logo =  "src/fotos/instagram-logo.png"
             
         ></div>
 		<post-card
-		   img =  "src/fotos/post3.png"
+		   img =  "src/fotos/post2.png"
            logo =  "src/fotos/instagram-logo.png"
             
         ></div>
