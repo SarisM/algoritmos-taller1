@@ -1,0 +1,36 @@
+.post-card {
+    position: relative;
+    width: 25rem;
+    height: 25rem;
+    overflow: hidden;
+}
+
+#background-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; 
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: end;
+    justify-content: space-around;
+    color: white;
+}
+
+.logo {
+    width: 50px;
+     
+}
+
+.title {
+    font-size: 18px; 
+    text-align: center;
+}
+

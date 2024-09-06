@@ -31,14 +31,20 @@ class AppContainer extends HTMLElement {
     ></product-card>
 
 
-	 <categorie-logo
-		
-	></categorie-logo>
+	 
 
 
 
 
 	<div id="cartas-completas">
+
+	<div class= "box-title">
+		<h1 class="titulo">ÚLTIMAS NOTICIAS Y ÁRTICULOS</h1>
+	</div>
+
+	 <categorie-logo
+		
+	></categorie-logo>
 	<div id="cartas">
 
 
@@ -107,6 +113,10 @@ class AppContainer extends HTMLElement {
 
         </div>
 
+	<div class= "box-button">
+		<div class="button">VER TODO</div>
+	</div>
+
 	
 		</div>
 
@@ -120,6 +130,32 @@ class AppContainer extends HTMLElement {
 
 	></call-to-action>
 
+	<div class= "box-title2">
+		<h1 class="titulo">COMUNIDAD</h1>
+	</div>
+
+
+
+	<div class= "post-completos">
+		<post-card
+		   img =  "src/fotos/post1.png"
+           logo =  "src/fotos/instagram-logo.png"
+            
+        ></div>
+		<post-card
+		   img =  "src/fotos/post2.png"
+           logo =  "src/fotos/instagram-logo.png"
+            
+        ></div>
+		<post-card
+		   img =  "src/fotos/post3.png"
+           logo =  "src/fotos/instagram-logo.png"
+            
+        ></div>
+		
+	</div>
+
+
 	<call-to-action2
 		title = "Diviértete"
 		description ="Más información sobre las oportunidades de empleo"
@@ -127,15 +163,15 @@ class AppContainer extends HTMLElement {
 		img =  "src/fotos/fondolargo.png"
 		title2 ="NUESTROS EQUIPOS"
 		description2="Diseño de juego
-Gráficos y animación
-Gestion de marca
-Producción
-Control de calidad"
+		Gráficos y animación
+		Gestion de marca
+		Producción
+		Control de calidad"
 		description3="Asistencia al cliente
-Operaciones del estudio
-Programación
-Finanzas y contabilidad
-Recursos humanos"
+		Operaciones del estudio
+		Programación
+		Finanzas y contabilidad
+		Recursos humanos"
 
 
 

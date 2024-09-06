@@ -4,8 +4,9 @@
     background-color: aqua;
     height: 17rem;
     width: 100%;
-    border-top-color: white;
     display: flex;
+    border-top: 1px solid white; /* Borde blanco en la parte superior */
+    border-bottom: 1px solid white;
 
 }
 
